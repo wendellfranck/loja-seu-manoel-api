@@ -1,0 +1,1 @@
+# loja-seu-manoel-api
