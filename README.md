@@ -25,6 +25,56 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Loja do Seu Manoel - API de Empacotamento
+
+API desenvolvida em NestJS para gerenciar pedidos e empacotamento de produtos em caixas de papelão, conforme as especificações do teste técnico.
+Funcionalidades
+
+Recebe pedidos com produtos e dimensões
+
+Calcula a melhor forma de empacotar os produtos nas caixas disponíveis
+
+Endpoints documentados via Swagger
+
+Autenticação JWT para segurança
+
+Testes unitários com Jest
+
+Preparado para execução via Docker
+
+Tecnologias
+
+Node.js + NestJS
+
+TypeScript
+
+class-validator / class-transformer
+
+Swagger (OpenAPI)
+
+JWT para autenticação
+
+Docker + Docker Compose
+
+Jest para testes unitários
+
+
+📦 Caixa Disponível
+
+Caixas de papelão disponíveis no sistema:
+
+| Caixa | Altura | Largura | Comprimento |
+| ----- | ------ | ------- | ----------- |
+| 1     | 30     | 40      | 80          |
+| 2     | 50     | 50      | 40          |
+| 3     | 50     | 80      | 60          |
+
+
+⚡ Endpoints
+
+Base URL: http://localhost:3000
+
+
 ## Project setup
 
 ```bash
